@@ -34,3 +34,21 @@ Motivated and detail-oriented Junior Developer with a passion for continuous lea
 
 ### Coding Test Platforms
 - Completed numerous coding challenges on platforms like LeetCode and HackerRank, focusing on algorithms, data structures, and problem-solving.
+
+---
+
+## Education
+- **Full Stack Development Course** - Bahcesehir University, 2024
+- **JavaScript Front End Development Course** - RS School, 2024
+- **JavaScript - Full Course for Beginners** - freeCodeCamp, 2024
+- **Master’s Degree in Biology** - Akdeniz University, 2022
+- **Additional Courses**:
+  - SEO Optimization - Semrush, 2024
+
+---
+
+## English Proficiency
+- **Level**: C1
+- **Experience**: Actively practiced English through course materials, documentation, and tutorials. Regularly engage with English-language content in technology and programming. Confident in reading technical documentation and participating in written communication.
+
+---
