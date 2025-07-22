@@ -13,7 +13,7 @@ My five years in scientific research have equipped me with a methodical approach
 ---
 
 ## Skills
-- **Languages**: JavaScript, HTML, CSS
+- **Programming Languages**: HTML, CSS, JavaScript, TypeScript
 - **Frameworks & Libraries**: React, Node.js
   
 ---
