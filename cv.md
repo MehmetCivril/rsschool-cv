@@ -7,7 +7,7 @@
 
 ---
 
-## Summary
+## About Me
 My five years in scientific research have equipped me with a methodical approach and attention to detail, which now support my work as a developer. I aim to create efficient, thoughtful solutions while bringing a unique perspective from the scientific field.
 
 ---
