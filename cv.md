@@ -8,18 +8,14 @@
 ---
 
 ## Summary
-Motivated and detail-oriented Junior Developer with a passion for continuous learning and problem-solving. Committed to expanding my knowledge in software development, with a focus on JavaScript and front-end development. Eager to contribute to innovative projects and work alongside a team of skilled developers to refine my skills and gain industry experience. Known for my curiosity, quick learning ability, and dedication to high-quality code.
+My five years in scientific research have equipped me with a methodical approach and attention to detail, which now support my work as a developer. I aim to create efficient, thoughtful solutions while bringing a unique perspective from the scientific field.
 
 ---
 
 ## Skills
 - **Languages**: JavaScript, HTML, CSS
 - **Frameworks & Libraries**: React, Node.js
-- **Version Control**: Git, GitHub
-- **Development Tools**: VS Code, npm, Chrome DevTools
-- **Methodologies**: Agile, TDD (Test-Driven Development)
-- **Soft Skills**: Problem-solving, teamwork, time management
-
+  
 ---
 
 
@@ -28,18 +24,12 @@ Motivated and detail-oriented Junior Developer with a passion for continuous lea
 - **Project**: Personal Portfolio Website
   - Developed a personal portfolio website from scratch using HTML, CSS, and JavaScript. Implemented responsive design principles to ensure compatibility across different devices.
 
-### Freelance Project
-- **Client Website for Local Business**
-  - Designed and developed a landing page for a local business using HTML, CSS, and JavaScript. Improved client visibility and customer engagement.
-
-### Coding Test Platforms
-- Completed numerous coding challenges on platforms like LeetCode and HackerRank, focusing on algorithms, data structures, and problem-solving.
 
 ---
 
 ## Education
+- **JavaScript Front End Development Course** - RS School, 2025 (in progress)
 - **Full Stack Development Course** - Bahcesehir University, 2024
-- **JavaScript Front End Development Course** - RS School, 2024
 - **JavaScript - Full Course for Beginners** - freeCodeCamp, 2024
 - **Master’s Degree in Biology** - Akdeniz University, 2022
 - **Additional Courses**:
