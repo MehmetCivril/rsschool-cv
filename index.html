@@ -344,8 +344,33 @@
               </button>
             </div>
           </div>
+          <div class="details-container color-container code">
+            <h2 class="experience-sub-title project-title">Code Example</h2>
+  <pre>
+  function checkUserExists(username) {
+  const users = [
+    { id: 1, username: 'alice', email: 'alice@example.com' },
+    { id: 2, username: 'bob', email: 'bob@example.com' },
+    { id: 3, username: 'charlie', email: 'charlie@example.com' }
+  ];
+
+  // Convert the input username to lowercase for case-insensitive comparison
+  const lowerCaseUsername = username.toLowerCase();
+
+  // Iterate through the users array to find a match
+  for (let i = 0; i < users.length; i++) {
+    if (users[i].username.toLowerCase() === lowerCaseUsername) {
+      return true; // User found
+    }
+  }
+
+  return false; // User not found
+}
+</pre>
+
+            </div>
+          </div>
         </div>
-      </div>
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
