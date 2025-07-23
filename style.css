@@ -322,7 +322,6 @@ section {
   height: 80%;
 }
 
-
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -390,7 +389,7 @@ article .icon {
 }
 
 .code {
-  text-align:left;
+  text-align: left;
 }
 
 /* CONTACT */
