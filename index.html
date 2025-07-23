@@ -7,6 +7,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <nav id="desktop-nav">
@@ -343,8 +344,33 @@
               </button>
             </div>
           </div>
+          <div class="details-container color-container code">
+            <h2 class="experience-sub-title project-title">Code Example</h2>
+  <pre>
+  function checkUserExists(username) {
+  const users = [
+    { id: 1, username: 'alice', email: 'alice@example.com' },
+    { id: 2, username: 'bob', email: 'bob@example.com' },
+    { id: 3, username: 'charlie', email: 'charlie@example.com' }
+  ];
+
+  // Convert the input username to lowercase for case-insensitive comparison
+  const lowerCaseUsername = username.toLowerCase();
+
+  // Iterate through the users array to find a match
+  for (let i = 0; i < users.length; i++) {
+    if (users[i].username.toLowerCase() === lowerCaseUsername) {
+      return true; // User found
+    }
+  }
+
+  return false; // User not found
+}
+</pre>
+
+            </div>
+          </div>
         </div>
-      </div>
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -393,15 +419,25 @@
       <p>
         Copyright &#169; September 2025, Mehmet Civril. All Rights Reserved.
       </p>
-      <p>
-        <a href="https://www.rs.school" target="_blank"
+      <div id="socials-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="My LinkedIn profile"
+          class="icon"
+          target="_blank"
+          onclick="location.href='https://www.linkedin.com/in/mehmetcivril/'" />
+        <img
+          src="./assets/github.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="location.href='https://github.com/MehmetCivril'" />
+        <a href="https://rs.school/courses/javascript" target="_blank"
           ><img
             src="./assets/rs-school-logo.svg"
             alt="Course Logo"
-            style="width: 50px"
+            style="width: 80px"
         /></a>
-      </p>
+      </div>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>
