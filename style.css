@@ -1,0 +1,71 @@
+@layer global {
+  :root {
+    --color-primary: #195de6;
+    --bg-light: #f8fafc;
+    --bg-dark: #0f172a;
+    --sb-light: #ffffff;
+    --sb-dark: #1e293b;
+    --bc-light: #e2e8f0;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+  }
+
+  h1 {
+  }
+
+  h2 {
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  img,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+}
+
+@layer components {
+  aside {
+    @media (min-width: 768px) {
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      width: 380px;
+      overflow-y: auto;
+      border-right-width: 1px;
+      border-color: var(--bc-light);
+      background-color: var(--sb-dark);
+      z-index: 40;
+      padding: 2rem;
+    }
+  }
+}
