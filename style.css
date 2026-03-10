@@ -67,7 +67,7 @@
     display: flex;
     flex-direction: column;
 
-    @media (min-width: 769px) {
+    @media (min-width: 1024px) {
       flex-direction: row;
     }
   }
@@ -85,12 +85,12 @@ aside {
   padding: 2rem;
   background-color: var(--bg-light);
 
-  @media (min-width: 769px) {
+  @media (min-width: 1024px) {
     position: fixed;
     left: 0;
     top: 0;
     height: 100vh;
-    width: 380px;
+    width: 400px;
     overflow-y: auto;
     border-right: 1px solid var(--bc-light);
     z-index: 40;
@@ -116,8 +116,8 @@ aside {
 
     &:hover img {
       filter: grayscale(0%);
-      width: 200px;
-      height: 200px;
+      width: 130px;
+      height: 130px;
     }
   }
 
@@ -128,13 +128,19 @@ aside {
     color: rgb(100 116 139 / 1);
   }
 
+  .sb__badge-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
   .sb__status-badge {
     color: rgb(5 150 105 / 1);
     background-color: rgb(236 253 245 / 1);
     font-size: 0.75rem;
     font-weight: 700;
     line-height: 1rem;
-    padding: 0.25rem 0.75rem;
+    padding: 0.4rem 0.75rem;
     border: 1px solid rgb(209 250 229 / 1);
     border-radius: 9999px;
     display: inline-flex;
@@ -149,12 +155,57 @@ aside {
     }
   }
 
+  .sb__resume {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 33px;
+    height: 33px;
+    overflow: hidden;
+    color: white;
+    background-color: rgb(25 93 230 / 1);
+    font-weight: 700;
+    font-size: 0.75rem;
+    padding: 0.4rem;
+    border-radius: 9999px;
+    transition:
+      width 600ms ease,
+      background-color 300ms ease;
+
+    .sb__resume-icon {
+      font-size: 20px;
+      transition: transform 600ms ease;
+    }
+
+    .sb__resume-text {
+      opacity: 0;
+      transform: translateX(-8px);
+      transition:
+        opacity 250ms ease,
+        transform 600ms ease;
+    }
+
+    &:hover {
+      width: 125px;
+      padding: 0.4rem;
+    }
+
+    /* &:hover .sb__resume-icon {
+      transform: translateX(6px);
+    } */
+
+    &:hover .sb__resume-text {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
   .sb__list {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
 
-    span {
+    li {
       font-weight: 500;
       font-size: 0.75rem;
       line-height: 1rem;
@@ -189,17 +240,45 @@ aside {
 
     .sb__socials {
       display: flex;
+      align-items: center;
       gap: 1rem;
-      margin-block-start: 1rem;
+      margin-block: 1rem;
 
       a {
         color: rgb(148 163 184 / 1);
         transition: color 300ms ease;
-
-        &:hover {
-          color: rgb(25 93 230 / 1);
-        }
       }
+
+      .sb__github:hover {
+        color: rgb(24 24 27 / 1);
+      }
+
+      .sb__linkedin:hover {
+        color: rgb(10 102 194 / 1);
+      }
+    }
+  }
+}
+
+main {
+  padding: 1.5rem;
+  min-height: 100vh;
+  flex: 1 1 0%;
+
+  @media (min-width: 1024px) {
+    margin-left: 400px;
+    padding: 3rem;
+  }
+
+  header {
+    gap: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-block-end: 3rem;
+
+    .header__filters {
+      display: flex;
     }
   }
 }
