@@ -103,13 +103,13 @@
                 <div class="header__intro">
                     <h2>Technical Projects</h2>
                 </div>
-                <nav aria-label="Project filters">
-                    <ul class="header__filters">
-                        <li><button type="button" data-filter="all">All Work</button></li>
-                        <li><button type="button" data-filter="frontend">Frontend</button></li>
-                        <li><button type="button" data-filter="backend">Backend</button></li>
-                    </ul>
-                </nav>
+	                <nav aria-label="Project filters">
+	                    <ul class="header__filters">
+	                        <li><button type="button" class="is-active" aria-pressed="true" data-filter="all">All Work</button></li>
+	                        <li><button type="button" aria-pressed="false" data-filter="frontend">Frontend</button></li>
+	                        <li><button type="button" aria-pressed="false" data-filter="backend">Backend</button></li>
+	                    </ul>
+	                </nav>
             </header>
             <section class="projects">
                 <div class="project__card">
@@ -227,5 +227,7 @@
     </div>
 
 </body>
+
+<script src="script.js" defer></script>
 
 </html>
