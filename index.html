@@ -40,10 +40,6 @@
                     Started my career in scientific research, earning a Master’s in Biology and working for several
                     years in a university hospital lab. During my Master’s and Ph.D. studies, I became interested in
                     software development and gradually transitioned into tech.
-                    </br>
-                    </br>
-                    My background in research shaped the way I approach problems —methodically, with strong attention to
-                    detail— which now carries over into my work as a developer.
                 </p>
             </div>
             <div class="sb__education margin-block-end-2rem">
@@ -54,7 +50,6 @@
                 <p>
                     BSc. in Biology, S. Demirel University, Turkey 2017
                 </p>
-
             </div>
             <div class="sb__languages margin-block-end-2rem">
                 <h2 class="margin-block-end-075rem">Languages</h2>
@@ -65,7 +60,7 @@
                             (C1)</span></li>
                 </ul>
             </div>
-            <div class="sb__stack margin-block-end-2rem">
+            <div class="margin-block-end-2rem">
                 <h2 class="sb__stack-title margin-block-end-075rem">Core Tech Stack</h2>
                 <ul class="sb__list">
                     <li><span>HTML</span></li>
@@ -74,6 +69,16 @@
                     <li><span>TypeScript</span></li>
                     <li><span>Node.js</span></li>
                 </ul>
+            </div>
+            <div class="sb__code margin-block-end-2rem" tabindex="0">
+                <h2>Code Example<span class="material-symbols-outlined">
+                        unfold_more
+                    </span></h2>
+                <pre><code class="language-js">
+function evenOrOdd(number) {
+  return number % 2 === 0 ? "Even" : "Odd";
+}
+</code></pre>
             </div>
             <div class="sb__contact">
                 <a class="sb__mail" href="mailto:mehmetcivril@gmail.com">
@@ -103,106 +108,108 @@
                 <div class="header__intro">
                     <h2>Technical Projects</h2>
                 </div>
-	                <nav aria-label="Project filters">
-	                    <ul class="header__filters">
-	                        <li><button type="button" class="is-active" aria-pressed="true" data-filter="all">All Work</button></li>
-	                        <li><button type="button" aria-pressed="false" data-filter="frontend">Frontend</button></li>
-	                        <li><button type="button" aria-pressed="false" data-filter="backend">Backend</button></li>
-	                    </ul>
-	                </nav>
+                <nav aria-label="Project filters">
+                    <ul class="header__filters">
+                        <li><button type="button" class="is-active" aria-pressed="true" data-filter="all">All
+                                Work</button></li>
+                        <li><button type="button" aria-pressed="false" data-filter="frontend">Frontend</button></li>
+                        <li><button type="button" aria-pressed="false" data-filter="backend">Backend</button></li>
+                    </ul>
+                </nav>
             </header>
             <section class="projects">
-                <div class="project__card">
-                    <div>
-                        <img alt="Project Screenshot" src="/img/portfolio.png" height="512" />
-                        <div>
+                <div class="project-card">
+                    <div class="project-card__img">
+                        <img alt="Project Screenshot" src="/img/portfolio.png" />
+                        <div class="project-card__tag">
                             <span>Frontend</span>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <h3>Lumina Dashboard</h3>
-                            <div>
+                    <div class="project-card__detail">
+                        <div class="project-card__head">
+                            <h3>Portfolio</h3>
+                            <div class="project-card__links">
                                 <a href="#"><span class="material-symbols-outlined">link</span></a>
                                 <a href="#"><span class="material-symbols-outlined">code</span></a>
                             </div>
                         </div>
-                        <p>SaaS platform for real-time
-                            data analytics. Built for high-throughput data visualization.</p>
-                        <div>
-                            <span>React</span>
-                            <span>Next.js</span>
-                            <span>Tailwind</span>
+                        <p>Personal developer portfolio for demonstrating selected work and technical capabilities.
+                            Implemented with modern web technologies and performance-focused design.
+                        </p>
+                        <div class="project-card__tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
                         </div>
                     </div>
                 </div>
-                <div class="project__card">
-                    <div>
+                <div class="project-card">
+                    <div class="project-card__img">
                         <img alt="Project Screenshot"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_A8nz9M_d_HjQXZ0mSW23ph9tv45GlQlO3_szegR91vPFeFD8lfP4ERNXAB4NFbGNk7Fx9iUQfKuqt6CKxqno-bR4wvjQSPDp82ZRI6S9Aqrkk-zS5DE1BlNuSl7NVMEIH6RBTNKDFAb5Gl4ND4sLutbtLtAON3Tn0ouHtj4X18djXKqUbJhpWb25WoGRD6-T6rBe99RuKzF81fjV4dNTesDoYjq89kqGSoDzMLGL6ZpWtUf-ToOrwBRIpwGaQ1-2qGiQd0-yEtU" />
-                        <div>
+                        <div class="project-card__tag">
                             <span>Full Stack</span>
                         </div>
                     </div>
-                    <div>
-                        <div>
+                    <div class="project-card__detail">
+                        <div class="project-card__head">
                             <h3>Flow Commerce</h3>
-                            <div>
+                            <div class="project-card__links">
                                 <a href="#"><span class="material-symbols-outlined">link</span></a>
                                 <a href="#"><span class="material-symbols-outlined">code</span></a>
                             </div>
                         </div>
                         <p>A headless e-commerce engine
                             optimized for lightning-fast performance and SEO ranking.</p>
-                        <div>
+                        <div class="project-card__tech">
                             <span>Node.js</span>
                             <span>PostgreSQL</span>
                             <span>Redis</span>
                         </div>
                     </div>
                 </div>
-                <div class="project__card">
-                    <div>
+                <div class="project-card">
+                    <div class="project-card__img">
                         <img alt="Project Screenshot"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjWtJMXSeOpJNZUAjwPAi2kZ5CRT-ArMKF3HNZ0FewYWwDA85tKPNcZXEhb6wVekd2wNSEMAV2Gt5gGUjOE4XFciPr5P_S6omNgKWIPdiCz6i1T6qgQrfsEuTmMDrgHYcmmAa-0qrabQOJ3vBKjI4wB3nFaVEwGZgXnoeeQIeY3ka2fwlVhZvNRBXvL7wE60zk8vSh8LlJXbOXQe4XMlVDPjR0BQqrQ5KHaOmMz0wTxwasx69N-UjgvQuahUQ29_O8xUhUuNJm_GY" />
-                        <div>
+                        <div class="project-card__tag">
                             <span>Product</span>
                         </div>
                     </div>
-                    <div>
-                        <div>
+                    <div class="project-card__detail">
+                        <div class="project-card__head">
                             <h3>Inertia App</h3>
-                            <div>
+                            <div class="project-card__links">
                                 <a href="#"><span class="material-symbols-outlined">link</span></a>
                                 <a href="#"><span class="material-symbols-outlined">code</span></a>
                             </div>
                         </div>
                         <p>Remote team collaboration tool featuring encrypted real-time video and task syncing.</p>
-                        <div>
+                        <div class="project-card__tech">
                             <span>TypeScript</span>
                             <span>AWS WebRTC</span>
                             <span>Socket.io</span>
                         </div>
                     </div>
                 </div>
-                <div class="project__card">
-                    <div>
+                <div class="project-card">
+                    <div class="project-card__img">
                         <img alt="Project Screenshot"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPzx6K_C5-XLdW_cu9oQSN-Z6v8Z8PdOCm4Y1d0k_eAz2rflsHW0ZW8z9XrvmlIXC7qWqUEv0sLsTcgN6AdLFFFU5WRSgTT4P1F4TmynCEtqz00IzX8rJHbuw-Tw1RZpkL7p7cpAwqLcEQRihoTd3bfxeAYmewUTT69phZ1WGJD85akIBlxQZ5yeXPxrpilJP1ZhBYzh0r8ds1D0JbPMmlFJdy8Gen1Kn2LH4WCi7uRBFPGj4kKZm82XtnkZBJaJqY38REP57i_2Y" />
-                        <div>
+                        <div class="project-card__tag">
                             <span>Backend</span>
                         </div>
                     </div>
-                    <div>
-                        <div>
+                    <div class="project-card__detail">
+                        <div class="project-card__head">
                             <h3>Pulse API</h3>
-                            <div>
+                            <div class="project-card__links">
                                 <a href="#"><span class="material-symbols-outlined">link</span></a>
                                 <a href="#"><span class="material-symbols-outlined">code</span></a>
                             </div>
                         </div>
                         <p>High-throughput microservices architecture for IoT device streaming and analytics.</p>
-                        <div>
+                        <div class="project-card__tech">
                             <span>Go</span>
                             <span>GraphQL</span>
                             <span>Kubernetes</span>
