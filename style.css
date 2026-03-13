@@ -308,26 +308,26 @@ aside {
         text-decoration: underline;
       }
     }
+  }
+}
 
-    .sb__socials {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      margin-block: 1rem;
+.sb__socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-block: 1rem;
 
-      a {
-        color: var(--color-light-gray);
-        transition: color 300ms ease;
-      }
+  a {
+    color: var(--color-light-gray);
+    transition: color 300ms ease;
+  }
 
-      .sb__github:hover {
-        color: var(--color-black);
-      }
+  .sb__github:hover {
+    color: var(--color-black);
+  }
 
-      .sb__linkedin:hover {
-        color: var(--color-blue);
-      }
-    }
+  .sb__linkedin:hover {
+    color: var(--color-blue);
   }
 }
 
@@ -423,6 +423,7 @@ main {
       img {
         object-fit: cover;
         max-height: 100%;
+        width: 100%;
         transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
       }
 
@@ -497,6 +498,27 @@ main {
         background-color: rgb(25 93 230 / 0.05);
         border-radius: 0.25rem;
       }
+    }
+  }
+
+  footer {
+    margin-block-start: 5rem;
+    padding-block-start: 2.5rem;
+    border-top: 1px solid var(--color-fair-gray);
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      text-transform: uppercase;
+      color: var(--color-light-gray);
+      font-size: 0.75rem;
+      line-height: 1rem;
+      letter-spacing: 0.1rem;
+    }
+
+    .footer__nav {
+      gap: 0.5rem;
+      margin-block: 0;
     }
   }
 }

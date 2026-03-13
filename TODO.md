@@ -5,7 +5,7 @@
     - Create sorting through JS using nav buttons
 
 - Footer
+    DONE
     - style the school logo
     - add school link
-    - style github logo and add github link
-    - OR maybe reuse the github element?
+    - style github logo and add github link OR maybe reuse the github element?
