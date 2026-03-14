@@ -488,6 +488,8 @@ main {
       flex-wrap: wrap;
       gap: 0.5rem;
       margin-block-start: auto;
+      padding-block-start: 1rem;
+      border-top: 1px solid var(--color-fair-gray);
 
       span {
         color: var(--color-blue);
