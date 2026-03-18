@@ -1,13 +1,13 @@
 - Projects
-    - Create sorting through JS using nav buttons
-    
-    DONE
-    - Change the cover images of dummy projects
-    - Add some info that they are dummy projects
-    - Change the tech stack of dummy projects? (MAYBE) 
+  - Create sorting through JS using nav buttons
+
+  DONE
+  - Change the cover images of dummy projects
+  - Add some info that they are dummy projects
+  - Change the tech stack of dummy projects? (MAYBE)
 
 - Footer
-    DONE
-    - style the school logo
-    - add school link
-    - style github logo and add github link OR maybe reuse the github element?
+  DONE
+  - style the school logo
+  - add school link
+  - style github logo and add github link OR maybe reuse the github element?
