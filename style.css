@@ -512,6 +512,8 @@ main {
     padding-block-start: 2.5rem;
     border-top: 1px solid var(--color-fair-gray);
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     justify-content: space-between;
 
     p {
