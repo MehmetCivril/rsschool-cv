@@ -1,41 +1,7 @@
 "use strict";
 
-const mobileNavBtn = document.querySelector(".mobile__nav-btn");
-const navLinks = document.querySelector(".nav__links");
 const projectFilters = document.querySelector(".header__filters");
-
-//Utility Functions
-function closeMenu() {
-  if (!mobileNavBtn || !navLinks) return;
-  mobileNavBtn.classList.remove("active");
-  navLinks.classList.remove("active");
-  mobileNavBtn.setAttribute("aria-expanded", "false");
-}
-
-function openMenu() {
-  if (!mobileNavBtn || !navLinks) return;
-  mobileNavBtn.classList.add("active");
-  navLinks.classList.add("active");
-  mobileNavBtn.setAttribute("aria-expanded", "true");
-}
-
-
-//Event Listeners
-if (mobileNavBtn && navLinks) {
-  mobileNavBtn.addEventListener("click", () => {
-    mobileNavBtn.classList.toggle("active");
-    navLinks.classList.toggle("active");
-  });
-
-  window.addEventListener("resize", () => {
-    if (window.innerWidth >= 769) closeMenu();
-  });
-
-  document.addEventListener("click", (e) => {
-    if (mobileNavBtn.contains(e.target)) return;
-    closeMenu();
-  });
-}
+const projectCards = document.querySelectorAll(".project-card");
 
 if (projectFilters) {
   projectFilters.addEventListener("click", (e) => {
@@ -50,5 +16,13 @@ if (projectFilters) {
 
     button.classList.add("is-active");
     button.setAttribute("aria-pressed", "true");
+
+    const filter = button.dataset.filter;
+    projectCards.forEach((card) => {
+      const category = card.dataset.category;
+      const isVisible = filter === "all" || category === filter;
+      if (isVisible) card.classList.remove("hidden");
+      else card.classList.add("hidden");
+    });
   });
 }
