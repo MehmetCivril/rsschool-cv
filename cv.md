@@ -1,4 +1,4 @@
-<img src="/img/profile-pic.jpg" alt="profile pic" height="200" weight="auto">
+<img src="assets/img/profile-pic.JPG" alt="profile pic" height="200" width="auto">
 
 ## Contact Information
 
